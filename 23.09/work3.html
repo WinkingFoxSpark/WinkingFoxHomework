@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work3</title>
+</head>
+<body>
+    <h1>Work 3</h1>
+    <ul>
+        <li>first</li>
+        <li>second</li>
+    </ul>
+
+    <ol>
+        <li>first</li>
+        <li>second</li>
+    </ol>
+
+    <ol type="I">
+        <li>first</li>
+        <li>second</li>
+    </ol>
+
+    <ol type="a">
+        <li>first</li>
+        <li>
+            <ul>
+                <li>under first</li>
+                <li>under first 2</li>
+            </ul>
+        </li>
+        <li>second</li>
+    </ol>
+
+    <ol start="7">
+        <li><H2>Hello</H2></li>
+        <li><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, excepturi?</p></li>
+        <li>first</li>
+        <li>second</li>
+    </ol>
+
+    <ol reversed>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>        
+    </ol>
+
+    <nav>
+        <ul>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+        </ul>
+    </nav>
+
+    <table border="5" style="width: 100%;">
+        <thead>
+            <tr>
+                <th>
+                    name
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    Skills
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Tom
+                </td>
+                <td>
+                    32
+                </td>
+                <td>
+                    html, css, figma
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jon
+                </td>
+                <td>
+                    25
+                </td>
+                <td>
+                    html, css
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Sam
+                </td>
+                <td>
+                    26
+                </td>
+                <td>
+                    html, css
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <table border="5" style="width: 100%;">
+        <thead>
+            <tr>
+                <th>
+                    <h3>name</h3>
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    Skills
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    Frodo
+                </td>
+                <td rowspan="3">
+                    <em>html, css, js</em>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tom
+                </td>
+                <td>
+                    25
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Sam
+                </td>
+                <td>
+                    26
+                </td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<h4>Form</h4>
+    <form action="">
+        <div>
+            <label for="Username">
+                Username
+            </label>
+            <input id="Username" type="text" placeholder="Minimum 3 symbols">
+        </div>
+        <div>
+            <label for="Userpassword">
+                Userpassword
+            </label>
+            <input id="Userpassword" type="password" placeholder="Minimum 8 symbols">
+        </div>
+        <div>
+            <select id="skills">
+                <option value="1">
+                    html
+                </option>
+                <option value="2">
+                    css
+                </option>
+                <option value="3">
+                    JS
+                </option>
+                <option value="4">
+                    Python
+                </option>
+            </select>
+        </div>
+        <h4>radiobutton</h4> 
+        <div>
+            <h5>
+                Delivery
+            </h5>
+            <ul>
+                <li>
+                    <label for="Postbox">PostBox</label>
+                    <input name="Delivery" id="Postbox" type="radio">
+                </li>
+                <li>
+                    <label for="Ukrposta">Ukrposta</label>
+                    <input name="Delivery" id="Ukrposta" type="radio">
+                </li>
+                <li>
+                    <label for="DeliveryMan">Delivery Man</label>
+                    <input name="Delivery" id="DeliveryMan" type="radio">
+                </li>
+            </ul>
+            <h5>Transport type</h5>
+            <ul>
+                <li>
+                    <label for="Car">Car</label>
+                    <input name="Transport1" id="Car" type="checkbox">
+                </li>
+                <li>
+                    <label for="Byke">Byke</label>
+                    <input name="Transport2" id="Byke" type="checkbox">
+                </li>
+                <li>
+                    <label for="Bus">Bus</label>
+                    <input disabled name="Transport3" id="Bus" type="checkbox">
+                </li>
+            </ul>           
+        </div>
+        <div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <input type="submit" value="Buy">       
+        <input type="reset" value="Reset"> 
+
+        <DIV>
+            <input type="time" name="" id="">
+        </DIV>
+
+    </form>
+    <button disabled>
+        Оформити оплату частинами
+    </button>
+
+
+</body>
+</html>

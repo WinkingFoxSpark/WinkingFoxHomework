@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2</title>
+</head>
+<body>
+    <table border="5" style="width: 100%;">
+        <thead>
+            <tr>
+                <th colspan="2" style="width: 32%;">
+                    colspan2
+                </th>
+                <th style="width: 15%;">
+                    text
+                </th>
+                <th style="width: 15%;">
+                    text
+                </th>
+                <th colspan="2" style="width: 32%;">
+                    colspan2
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td >
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td colspan="2">
+                    colspan2
+                </td>
+                <td style="width: 15%;">
+                    text
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">
+                    colspan2 rowspan2
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td rowspan="4">
+                    rowspan4
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    colspan3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+            </tr>
+         </tbody>
+    </table>
+
+    <br>
+
+    <table border="5" style="width: 100%;">
+        <thead>
+            <tr>
+                <th style="width: 16%;">
+                    Назва книги
+                </th>
+                <th style="width: 16%;">
+                    Рік випуску книги
+                </th>
+                <th style="width: 16%;">
+                    Рейтинг книги за оцінкою критиків
+                </th>
+                <th style="width: 16%;">
+                     Рейтинг книги за оцінкою читачів
+                </th>
+                <th style="width: 16%;">
+                    Жанр
+                </th>
+                <th>
+                    Наявність в магазині
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Мор третю добу
+                </td>
+                <td>
+                    1993
+                </td>
+                <td>
+                    9/10
+                </td>
+                <td>
+                    8,5/10
+                </td>
+                <td>
+                    Журналістика
+                </td>
+                <td>
+                    В наявності
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Дихаючи струмом
+                </td>
+                <td>
+                    2008
+                </td>
+                <td>
+                    8/10
+                </td>
+                <td>
+                    9/10
+                </td>
+                <td>
+                    Фантастика
+                </td>
+                <td>
+                    В наявності
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Червона квітка
+                </td>
+                <td>
+                    2020
+                </td>
+                <td>
+                    9,5/10
+                </td>
+                <td>
+                    9,5/10
+                </td>
+                <td>
+                    Жахи
+                </td>
+                <td>
+                    Немає наявності
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <form action="">
+        <div>
+            <label for="Username">
+                Username
+            </label>
+            <input id="Username" type="text" placeholder="Minimum 3 symbols">
+        </div>
+        <div>
+            <label for="Userpassword">
+                Userpassword
+            </label>
+            <input id="Userpassword" type="password" placeholder="Minimum 8 symbols">
+        </div>
+
+        <div>
+            <h5>
+                Sex
+            </h5>
+            <ul>
+                <li>
+                    <label for="Man">Man</label>
+                    <input name="Sex" id="Man" type="radio">
+                </li>
+                <li>
+                    <label for="Woman">Woman</label>
+                    <input name="Sex" id="Woman" type="radio">
+                </li>
+                <li>
+                    <label for="Other">Other</label>
+                    <input name="Sex" id="Other" type="radio">
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <label for="color">Choose favorite color:</label>
+            <input type="color" id="color" name="color">
+        </div>
+
+        <div>
+            <label for="birthday">Date of birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="resume">Select your resume in PDF:</label>
+            <input type="file" id="resume" name="resume" min="1">
+        </div>
+
+        <input type="submit" value="Submit">       
+        <input type="reset" value="Reset"> 
+
+    </form>
+
+
+</body>
+</html>
