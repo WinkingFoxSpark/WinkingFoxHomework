@@ -1,0 +1,62 @@
+body{
+    background-color: lightblue;
+
+}
+h2, h4, h3 {color: yellow; background-color: black;}
+
+h1:hover{background-color: greenyellow;}
+
+
+p {background-color: yellow; color: aqua;}
+
+p span {background-color: rgb(160, 28, 28); color: blueviolet;}
+
+span {background-color: black; color: yellow;}
+
+/* *{} вибирає всі елементи на сторінці */
+
+#top {background-color: violet; padding: 50px; text-align: center;}
+
+/* article h3, article p{ text-align: center;} */
+
+.center-content{ background-color: crimson;}
+.center-content h3,
+.center-content p{
+    text-align: center;
+}
+
+
+.right-content{ background-color: rgb(127, 145, 87);}
+.right-content h3,
+.right-content p{
+    text-align: right;
+}
+
+.border-block{border: 4px solid black;}
+
+.right-content.border-block{font-size: 35px;}
+
+span+span{background-color: coral;}
+
+li:first-child{
+    background-color: blue;
+    color: antiquewhite;
+}
+
+li:last-child{
+    background-color: rgb(61, 28, 58);
+    color: rgb(187, 118, 29);
+}
+
+li:nth-child(2){
+    background-color: rgb(197, 65, 94);
+    color: rgb(46, 37, 25);
+}
+
+li:nth-child(3){
+    background-color: rgb(65, 197, 65);
+    color: rgb(165, 153, 136);
+}
+
+a[href='https://www.w3schools.com/html/html_form_input_types.asp']{background-color: darkred;}
+
