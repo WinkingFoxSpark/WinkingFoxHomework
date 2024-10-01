@@ -7,20 +7,18 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-.header-container{
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     max-width: 800px;
     margin: 0 auto;
     padding-top: 70px;
     padding-bottom: 65px;
 }
 
-.logo-block{
-    display: inline; 
-    /* Не можу зрозуміти, як саме їх рознести по різним сторонам. Можу падінгом, але це буде хардкод і це неправильно, наскільки я зрозуміла. */
-}
-
-.social-block{
-    display: inline;
+.logo-block, .social-block {
+    display: inline-block;
 }
 
 .form{
@@ -50,8 +48,7 @@ body{
     margin: 0 auto;
     padding-top: 80px;
     padding-bottom: 80px;
-    color: rgba(0, 0, 0, 56);
-    /* Не розумію, чому не працює цей колір тексту */
+    color: rgba(0, 0, 0, 0.56);
 }
 
 h2{
@@ -79,8 +76,7 @@ h3{
     margin: 0 auto;
     padding-top: 92px;
     padding-bottom: 25px;
-    color: rgba(0, 0, 0, 56);
-        /* Не розумію, чому не працює цей колір тексту */
+    color: rgba(0, 0, 0, 0.56);
 }
 
 .footer{
@@ -112,16 +108,22 @@ h3{
     text-align: center;
 }
 
-.mail-form{
-    border: 0px;
+.mail-form {
+    display: inline;
+    align-items: center;
+}
+
+.mail-form input {
+    border: none;
     display: inline;
     padding-right: 100px;
     padding-left: 35px;
     font-size: 30px;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    /* Не розумію, чому це не працює */
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    box-sizing: border-box;
 }
+
 
 
 a{
@@ -133,4 +135,3 @@ a{
     padding-left: 20px;
     padding-right: 20px;
 }
-
