@@ -1,0 +1,130 @@
+body{
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    max-width: 360px;
+    max-height: 800px;
+    background-color: #FFFFFF;
+    padding-left: 35px;
+    padding-bottom: 60px;
+    border: solid 5px #F7B3B3;
+    border-radius: 25px;
+}
+
+Header{
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 17px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0%;
+}
+
+h2{
+    color: rgb(0, 48, 73);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+h4{
+    color: rgb(0, 48, 73);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+p{
+    color: rgb(214, 40, 40);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.inactive-text-h3{
+    color: rgb(196, 196, 196);
+
+}
+
+input{
+    border-radius: 12px;
+    background: rgb(239, 239, 239);
+    width: 316px;
+    height: 44px;
+    border: none;
+    margin-bottom: 17px;
+}
+
+::placeholder{
+    padding-left: 15px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+}
+
+.flex-block{
+    display: flex;
+}
+
+.select{
+    margin-right: 24px;
+}
+
+.image-food-active{
+    height: 37px;
+    padding: 18px;
+    border-radius: 12px;
+    background: rgb(234, 226, 183);    
+}
+
+.image-food-inactive{
+    height: 37px;
+    padding: 18px;
+    border-radius: 12px;
+    background: rgb(239, 239, 239); 
+}
+
+.food-card{
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 316px;
+    height: 88px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+/* .food-card :last-child{
+    margin-bottom: 91px;
+} */
+
+.image-burger{
+    margin-left: 16px;
+    margin-right: 12px;
+}
