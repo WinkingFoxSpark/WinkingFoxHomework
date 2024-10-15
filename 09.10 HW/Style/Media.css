@@ -1,0 +1,101 @@
+@media screen and (max-width:1565px){
+    .general-info-in{
+        display: block;
+    }
+    .stream-button{
+        padding: 15px 32px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:1175px){
+    .main-buttons{
+        display: block;
+    }
+    .stream-button{
+        margin-bottom: 20px;
+    } 
+}
+
+@media screen and (max-width:800px){
+    .prev{
+        border-radius: 35px;
+        font-size: 25px;
+    }
+    .next{
+        border-radius: 35px;
+        font-size: 25px;
+    }
+    .other-films{
+        align-content: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .text-other-films{
+        justify-content: space-between;
+        align-content: center;
+    }
+    .logo{
+        margin-right: 0px;
+    }
+    header{
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .logo-block{
+        margin-right: 20px;
+    }
+    .info{
+        width: 100%;
+    }
+    .genres{
+        margin-top: 50px;
+    }
+    .main-buttons{
+        width: 100%;
+    }
+    .slider-other-films{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;    
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .slider-other-films{
+        margin-bottom: 30px;
+    }
+    header{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-block{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .search-and-avatar{
+        justify-content: center;
+    }
+    .stream-button{
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+    .episode-button{
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+    .genres{
+        flex-direction: column;
+    }
+    .general-info{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:430px) {
+
+}

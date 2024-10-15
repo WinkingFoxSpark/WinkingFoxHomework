@@ -1,0 +1,234 @@
+/* :root{
+    --main-text: #FFFFFF;
+    --secondary-text: #A7A6A6;
+    --main-color: #D40D1F;
+    --color-for-date: #C8C8C8;
+    --color-star-solid: #FFEA2B;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('../Image/Wallp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96%;
+    margin: 0 auto;
+}
+
+header{
+    margin: 0 auto;
+    width: 96%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo-block{
+    display: flex;
+    align-content: center;
+}
+
+.logo{
+    max-width: 156PX;
+    margin-right: 56px;
+    align-content: center;
+}
+
+.date{
+    font-family: "Grandstander", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-for-date);
+    font-size: 24px;
+    padding-left: 22px;
+    align-content: center;
+}
+
+.date::before{
+    content: '';
+    margin-right: 26px;
+    width: 28px; 
+    transform: rotate(90.00deg);
+    border: 2px solid var(--main-text);
+}
+
+.search-and-avatar{
+    display: flex;
+    align-content: center;
+}
+
+.search{
+    font-size: 40px;
+    color: var(--main-text);
+    margin-right: 45px;
+    align-content: center;
+}
+
+.avatar{
+    max-width: 74px;
+}
+
+.info{
+    width: 57%;
+}
+
+.genres{
+    color: var(--main-text);
+    font-size: 29px;
+    display: flex;
+    margin-top: 105px;
+
+}
+
+h4{
+    padding-right: 40px;
+}
+
+h4::before{
+    content: '';
+    margin-right: 26px;
+    width: 28px; 
+    transform: rotate(90.00deg);
+    border: 2px solid var(--main-text);
+}
+
+h5{
+    padding-right: 40px;    
+}
+
+h1{
+    font-size: 64px;
+    color: var(--main-text);
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.general-info{
+    display: flex;
+}
+
+.general-info-in{
+    display: flex;
+    margin-right: 40px;
+}
+
+h2{
+    font-size: 30px;
+    color: var(--main-text);
+}
+
+h3{
+    font-size: 29px;
+    color: var(--secondary-text);
+}
+
+.description{
+    font-size: 24px;
+    color: var(--secondary-text);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.star{
+    font-size: 29px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.star-solid{
+    color: var(--color-star-solid);
+}
+
+.star-regular{
+    color: var(--main-text);
+    padding-left: 10px;
+}
+
+.main-buttons{
+    width: 57%;
+}
+
+.stream-button{
+    padding: 15px 32px;
+    background-color: var(--main-color);
+    color: var(--main-text);
+    font-size: 32px;
+    border-radius: 10px;
+    border: 3px solid var(--main-color);
+    margin-right: 90px;
+}
+
+.episode-button{
+    padding: 15px 32px;
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--main-text);
+    font-size: 32px;
+    border-radius: 10px;
+    border: solid var(--main-text) 3px;
+}
+
+.other-films{
+    width: 57%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.text-other-films{
+    width: 100%;
+    color: var(--main-text);
+    font-weight: 600;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+}
+
+.buttons-other-films{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev{
+    color: var(--secondary-text);
+    border: solid var(--secondary-text) 2px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.next{
+    color: var(--main-text);
+    border: solid var(--main-text) 2px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+}
+
+
+.slider-other-films{
+    width: 57%;    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.age{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
+    padding: 20px 74px 20px 58px;
+    border-left: 33px solid var(--main-color);
+    position: fixed;
+    right: 0;
+    bottom: 103px;
+} */
