@@ -1,4 +1,4 @@
-/* :root{
+:root{
     --main-text: #FFFFFF;
     --secondary-text: #A7A6A6;
     --main-color: #D40D1F;
@@ -24,7 +24,7 @@ body{
 
 header{
     margin: 0 auto;
-    width: 96%;
+    width: 100%;
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
@@ -231,4 +231,4 @@ h3{
     position: fixed;
     right: 0;
     bottom: 103px;
-} */
+}

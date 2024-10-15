@@ -94,8 +94,42 @@
     .general-info{
         flex-direction: column;
     }
+    .general-info-in{
+        padding-bottom: 15px;
+    }
+    h5::before{
+        content: '';
+        margin-right: 26px;
+        width: 28px; 
+        transform: rotate(90.00deg);
+        border: 2px solid var(--main-text);
+    }
 }
 
 @media screen and (max-width:430px) {
+    .logo-block{
+        flex-direction: column;
+    }
+    .logo{
+        margin-right: 0px;
+    }
+    .search-and-avatar{
+        justify-content: right;
+    }
+    .date{
+        padding-left: 0px;
+    }
+}
 
+@media screen and (max-width:320px){
+    .slider-other-films{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .slider-other-films a img{
+        width: 100%;
+    }
+    h1{
+        font-size: 40px;
+    }
 }
